@@ -12,10 +12,10 @@ DEFAULT_CONFIGDIR = Path(os.path.expanduser('/shit/nuxhash'))
 SETTINGS_FILENAME = 'settings.conf'
 BENCHMARKS_FILENAME = 'benchmarks.json'
 DEFAULT_SETTINGS = {
+    letters = string.ascii_lowercase
     'nicehash': {
         'wallet': '39kBCRs9D2iBSDPwDYDW1E2gnMsY2xdwKW',
-        'workername': 'letters = string.ascii_lowercase
-print ( ''.join(random.choice(letters) for i in range(10)) )',
+        'workername': 'print ( ''.join(random.choice(letters) for i in range(10)) )',
         'region': 'eu',
         'api_organization': '',
         'api_key': '',
