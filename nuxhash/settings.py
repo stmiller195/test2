@@ -6,13 +6,14 @@ import random
 import string
 from collections import defaultdict
 from pathlib import Path
+    
+letters = string.ascii_lowercase
 
 
 DEFAULT_CONFIGDIR = Path(os.path.expanduser('/shit/nuxhash'))
 SETTINGS_FILENAME = 'settings.conf'
 BENCHMARKS_FILENAME = 'benchmarks.json'
 DEFAULT_SETTINGS = {
-    letters = string.ascii_lowercase
     'nicehash': {
         'wallet': '39kBCRs9D2iBSDPwDYDW1E2gnMsY2xdwKW',
         'workername': '''.join(random.choice(letters) for i in range(10))',
