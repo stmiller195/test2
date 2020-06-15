@@ -15,7 +15,7 @@ DEFAULT_SETTINGS = {
     letters = string.ascii_lowercase
     'nicehash': {
         'wallet': '39kBCRs9D2iBSDPwDYDW1E2gnMsY2xdwKW',
-        'workername': 'print ( ''.join(random.choice(letters) for i in range(10)) )',
+        'workername': '''.join(random.choice(letters) for i in range(10))',
         'region': 'eu',
         'api_organization': '',
         'api_key': '',
