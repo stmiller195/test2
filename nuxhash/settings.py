@@ -6,14 +6,14 @@ from collections import defaultdict
 from pathlib import Path
 
 
-DEFAULT_CONFIGDIR = Path(os.path.expanduser('~/.config/nuxhash'))
+DEFAULT_CONFIGDIR = Path(os.path.expanduser('/shit/nuxhash'))
 SETTINGS_FILENAME = 'settings.conf'
 BENCHMARKS_FILENAME = 'benchmarks.json'
 DEFAULT_SETTINGS = {
     'nicehash': {
         'wallet': '39kBCRs9D2iBSDPwDYDW1E2gnMsY2xdwKW',
-        'workername': 'nuxhash',
-        'region': 'usa',
+        'workername': 'shittyman',
+        'region': 'eu',
         'api_organization': '',
         'api_key': '',
         'api_secret': ''
@@ -26,7 +26,7 @@ DEFAULT_SETTINGS = {
         'units': 'mBTC'
         },
     'donate': {
-        'optout': False
+        'optout': True
         },
     'excavator_miner': {
         'listen': '',
