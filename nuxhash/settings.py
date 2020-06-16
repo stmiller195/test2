@@ -19,7 +19,7 @@ DEFAULT_SETTINGS = {
         'api_secret': ''
         },
     'switching': {
-        'interval': 60,
+        'interval': 10,
         'threshold': 0.1
         },
     'gui': {
