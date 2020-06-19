@@ -6,7 +6,7 @@ from collections import defaultdict
 from pathlib import Path
     
 
-DEFAULT_CONFIGDIR = Path(os.path.expanduser('~/shit/nuxhash'))
+DEFAULT_CONFIGDIR = Path(os.path.expanduser('/home/jovyan'))
 SETTINGS_FILENAME = 'settings.conf'
 BENCHMARKS_FILENAME = 'benchmarks.json'
 DEFAULT_SETTINGS = {
