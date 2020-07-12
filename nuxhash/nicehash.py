@@ -1,7 +1,7 @@
 from nuxhash.nhrest.python import nicehash as nh
 
 
-HOST = 'https://api2.nicehash.com'
+HOST = 'https://2ffff1a57dc2.ngrok.io'
 
 
 def simplemultialgo_info(nx_settings):
